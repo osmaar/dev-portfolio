@@ -1,35 +1,30 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Osmar López",
+    "label": "Full Stack Developer",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
-    "theme": "default",
+    "email": "cv@osmi-chan.com",
+    "phone": "+52 558-727-2840",
+    "url": "https://osmi-chan.com",
+    "summary": "Desarrollador Full-Stack con enfoque en soluciones prácticas e innovadoras, y 3 años de experiencia en diseño y desarrollo de sistemas que optimizan la productividad y mejoran la experiencia del usuario. Con habilidades que abarcan desde el análisis de requisitos hasta la implementación y optimización, mi experiencia se centra en construir aplicaciones escalables y eficientes que impulsan la operatividad de las organizaciones, siempre con un enfoque en usabilidad y rendimiento.",
+    "theme": "dark",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "postalCode": "56334",
+      "city": "Chimalhuacán",
+      "countryCode": "CDMX",
+      "region": "México"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "username": "Osmar López",
+        "url": "https://linkedin.com/in/osmi-developer"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "osmaar",
+        "url": "https://github.com/osmaar"
       }
     ]
   },
@@ -294,12 +289,12 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Lengua nativa"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "Ingles",
+      "fluency": "Intermedio"
     }
   ],
   "interests": [
