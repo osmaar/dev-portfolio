@@ -114,12 +114,11 @@
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
+      "institution": "Universidad Virtual del Estado de Guanajuato (UVEG)",
+      "url": "https://uveg.edu.mx/index.php/es/",
+      "area": "Ingeniería en Gestión de Proyectos",
+      "studyType": "Licenciatura",
+      "startDate": "2023-01-01",
       "score": "3.8",
       "courses": [
         "CS101 - Introduction to Computer Science",
@@ -127,38 +126,38 @@
       ]
     },
     {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "institution": "Centro de Estudios Científicos y Tecnológicos N° 10 'Carlos Vallejo Márquez' IPN",
+      "url": "https://www.cecyt10.ipn.mx",
+      "area": "Técnico en Telecomunicaciones",
+      "studyType": "Bachillerato",
+      "startDate": "2015-08-01",
+      "endDate": "2017-06-20"
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Accredited Scrum Fundamentals Certification (AICS® ASFC).",
+      "date": "2024-11-01",
+      "issuer": "AICS® - Asociación Internacional de Calidad de Software",
+      "url": "https://www.linkedin.com/in/osmi-developer/overlay/1730836385619/single-media-viewer/?profileId=ACoAADG4FssB7HjE-jvp9jK-A8pPwkEvflxhKwQ"
+    },
+    {
+      "name": "Accredited Software Testing Fundamentals Certification (AICS® ASTFC).",
+      "date": "2024-12-15",
+      "issuer": "AICS® - Asociación Internacional de Calidad de Software",
+      "url": "https: //www.linkedin.com/in/osmi-developer/details/certifications/1718475347303/single-media-viewer/?profileId=ACoAADG4FssB7HjE-jvp9jK-A8pPwkEvflxhKwQ"
+    },
+    {
+      "name": "Primeros pasos en el proceso de diseño de UX:Empatizar, Definir, Idear.",
+      "date": "2022-08-22",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/8Z7WQYE7L7GD"
+    },
+    {
+      "name": "Aspectos básicos del diseño de la experiencia del usuario.",
+      "date": "2022-07-5",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/CXJC6PUUWSW7"
     }
   ],
   "skills": [
@@ -217,6 +216,42 @@
       ]
     },
     {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design",
+        "JavaScript Framework",
+        "TypeScript",
+        "RxJS",
+        "Angular Material",
+        "Angular CLI",
+        "Angular Universal",
+        "Angular Elements"
+      ]
+    },
+    {
+      "name": "Vuejs",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design",
+        "JavaScript Framework",
+        "TypeScript",
+        "Vue CLI",
+        "Vuex",
+        "Vue Router",
+        "Nuxt.js",
+        "VuePress",
+        "Vite",
+        "Vetur"
+      ]
+    },
+    {
       "name": "TypeScript",
       "level": "Intermediate",
       "keywords": [
@@ -227,13 +262,92 @@
       ]
     },
     {
-      "name": "Node",
+      "name": "Jest",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset",
+        "Testing",
+        "Unit Testing",
+        "Integration Testing",
+        "E2E Testing",
+        "Mocking",
+        "Spying",
+        "Snapshot Testing",
+        "Code Coverage",
+        "Watch Mode",
+        "CI/CD",
+        "Jest CLI",
+        "Jest API",
+        "Jest Configuration"
+      ]
+    },
+    {
+      "name": "Php",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
         "Backend",
-        "JavaScript",
+        "php",
+        "phpMyAdmin",
         "Server"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "php",
+        "phpMyAdmin",
+        "Server",
+        "Framework",
+        "MVC",
+        "ORM",
+        "Eloquent",
+        "Blade",
+        "Artisan",
+        "Composer",
+        "Tinker",
+        "Valet",
+        "Sail",
+        "Homestead",
+        "Forge",
+        "Vapor",
+        "Lumen",
+        "Sanctum",
+        "Passport",
+        "Jetstream",
+        "Fortify"
+      ]
+    },
+    {
+      "name": "CodeIgnaiter",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "php",
+        "phpMyAdmin",
+        "Server",
+        "Framework",
+        "MVC"
+      ]
+    },
+    {
+      "name": "Livewire",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "php",
+        "phpMyAdmin",
+        "Server",
+        "Framework",
+        "MVC"
       ]
     },
     {
@@ -263,27 +377,6 @@
         "Collaboration",
         "Source Code",
         "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
       ]
     }
   ],
