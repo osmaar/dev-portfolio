@@ -196,6 +196,23 @@
       ]
     },
     {
+      "name": "Bootstrap",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design",
+        "CSS Framework",
+        "UI",
+        "UX",
+        "Components",
+        "Grid System",
+        "Utilities",
+        "Sass",
+        "PostCSS"
+      ]
+    },
+    {
       "name": "JavaScript",
       "level": "Intermediate",
       "keywords": [
@@ -249,6 +266,44 @@
         "VuePress",
         "Vite",
         "Vetur"
+      ]
+    },
+    {
+      "name": "Jquery",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design",
+        "JavaScript Framework"
+      ]
+    },
+    {
+      "name": "Ionic",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design",
+        "JavaScript Framework",
+        "TypeScript",
+        "Angular",
+        "React",
+        "Vue.js"
+      ]
+    },
+    {
+      "name": "AstroJs",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design",
+        "JavaScript Framework",
+        "TypeScript"
       ]
     },
     {
@@ -338,6 +393,48 @@
       ]
     },
     {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Framework",
+        "MVC",
+        "ORM",
+        "JPA",
+        "Hibernate",
+        "Spring",
+        "Spring Boot",
+        "Spring Data",
+        "Spring Security",
+        "Spring Cloud",
+        "Spring Batch",
+        "Spring Integration",
+        "Spring HATEOAS"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Framework",
+        "MVC",
+        "ORM",
+        "JPA",
+        "Spring Data",
+        "Spring Security",
+        "Spring Cloud",
+        "Spring Batch",
+        "Spring Integration",
+        "Spring HATEOAS",
+        "Spring Boot"
+      ]
+    },
+    {
       "name": "Livewire",
       "level": "Intermediate",
       "keywords": [
@@ -351,6 +448,83 @@
       ]
     },
     {
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Framework",
+        "MVC",
+        "ORM",
+        "Entity Framework",
+        "ASP.NET",
+        "ASP.NET Core",
+        "ASP.NET MVC",
+        "ASP.NET Web API",
+        "ASP.NET Identity",
+        "ASP.NET SignalR",
+        "ASP.NET Blazor",
+        "ASP.NET Razor Pages",
+        "ASP.NET Web Forms",
+        "ASP.NET Dynamic Data"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "Framework",
+        "Entity Framework",
+        "ASP.NET",
+        "ASP.NET Core",
+        "ASP.NET MVC",
+        "ASP.NET Web API",
+        "ASP.NET Identity",
+        "ASP.NET SignalR",
+        "ASP.NET Blazor",
+        "ASP.NET Razor Pages",
+        "ASP.NET Web Forms",
+        "ASP.NET Dynamic Data",
+        "MVC",
+        "ORM"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "IA",
+        "Machine Learning",
+        "Data Science",
+        "Framework",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Pyramid"
+      ]
+    },
+    {
+      "name": "Power BI",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server",
+        "BI",
+        "Business Intelligence",
+        "Data Analysis",
+        "Data Visualization",
+        "Data Modeling"
+      ]
+    },
+    {
       "name": "MySQL",
       "level": "Intermediate",
       "keywords": [
@@ -358,6 +532,74 @@
         "SQL",
         "Data Storage",
         "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend",
+        "Postgres",
+        "pgAdmin"
+      ]
+    },
+    {
+      "name": "Windows Server",
+      "level": "Intermediate",
+      "keywords": [
+        "Server",
+        "Windows",
+        "Windows Server",
+        "Active Directory",
+        "Group Policy",
+        "DNS",
+        "DHCP",
+        "IIS",
+        "Hyper-V",
+        "WSUS",
+        "Remote Desktop Services",
+        "File Server",
+        "Print Server",
+        "VPN",
+        "DirectAccess",
+        "BranchCache",
+        "Storage Spaces",
+        "Failover Clustering",
+        "Network Load Balancing",
+        "Windows Admin Center",
+        "PowerShell",
+        "Windows Defender",
+        "Windows Firewall",
+        "Windows Update",
+        "Windows Deployment Services",
+        "Windows Assessment and Deployment Kit",
+        "Windows Preinstallation Environment",
+        "Windows Recovery Environment"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "Server",
+        "Linux",
+        "Ubuntu",
+        "Debian",
+        "CentOS",
+        "Red Hat"
+      ]
+    },
+    {
+      "name": "Debian",
+      "level": "Intermediate",
+      "keywords": [
+        "Server",
+        "Debian",
+        "System Administration",
+        "Linux"
       ]
     },
     {
@@ -377,6 +619,61 @@
         "Collaboration",
         "Source Code",
         "Git"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "level": "Intermediate",
+      "keywords": [
+        "Design",
+        "Illustrator",
+        "Photoshop",
+        "Premiere",
+        "After Effects",
+        "InDesign",
+        "Lightroom",
+        "XD",
+        "Spark",
+        "Acrobat",
+        "Bridge",
+        "Animate",
+        "Audition",
+        "Character Animator",
+        "Dimension",
+        "Dreamweaver",
+        "Fresco",
+        "InCopy",
+        "Media Encoder",
+        "Prelude",
+        "Rush",
+        "Substance",
+        "Behance",
+        "Portfolio",
+        "Stock",
+        "Typekit",
+        "Creative Cloud"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containerization",
+        "DevOps",
+        "Kubernetes",
+        "Docker Compose",
+        "Docker Swarm",
+        "Docker Hub"
+      ]
+    },
+    {
+      "name": "SonarQube",
+      "level": "Intermediate",
+      "keywords": [
+        "Code Quality",
+        "Code Analysis",
+        "Code Review",
+        "Static Analysis"
       ]
     }
   ],
