@@ -1,17 +1,17 @@
 {
   "basics": {
-    "name": "Osmar López",
-    "label": "Full Stack Developer",
+    "name": "Osmar López Islas",
+    "label": "Desarrollador Full Stack",
     "image": "/me_avatar.jpg",
-    "email": "cv@osmi-chan.com",
+    "email": "contacto@osmi-chan.com",
     "phone": "+52 558-727-2840",
     "url": "https://osmi-chan.com",
-    "summary": "Desarrollador Full-Stack con enfoque en soluciones prácticas e innovadoras, y 3 años de experiencia en diseño y desarrollo de sistemas que optimizan la productividad y mejoran la experiencia del usuario. Con habilidades que abarcan desde el análisis de requisitos hasta la implementación y optimización, mi experiencia se centra en construir aplicaciones escalables y eficientes que impulsan la operatividad de las organizaciones, siempre con un enfoque en usabilidad y rendimiento.",
+    "summary": "+4 años de experiencia desarrollando soluciones Full-Stack  web escalables, con enfoque en rendimiento, arquitectura y experiencia de usuario. Especializado en Laravel, Angular, Vue.js y microservicios.",
     "theme": "dark",
     "location": {
       "address": "",
       "postalCode": "56334",
-      "city": "Chimalhuacán",
+      "city": "Ciudad de México",
       "countryCode": "CDMX",
       "region": "México"
     },
@@ -30,88 +30,179 @@
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
+      "name": "B-PROCESS",
+      "position": "Desarrollador Full Stack",
+      "location_type": "Híbrido",
+      "location": "México",
+      "url": "https://b-process.mx/",
+      "startDate": "2024-05-01",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
-      "highlights": [
-        "Improved website performance by optimizing code"
-      ],
+      "summary": "Desarrollo y mantenimiento del Sistema de Información Penitenciario Federal. Participación activa en análisis, diseño e implementación de soluciones modulares, integración de biometría y microservicios, así como mejora continua basada en estándares de calidad de software.",
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Desarrollar módulos backend con Laravel y frontend utilizando Angular y Vue.js.",
+        "Diseñar APIs y microservicios para integración con sistemas federales externos.",
+        "Modelar bases de datos bajo principios de normalización y rendimiento.",
+        "Implementar arquitectura basada en microfrontends para escalabilidad.",
+        "Integrar estaciones biométricas con la plataforma web.",
+        "Diseñar interfaces intuitivas y funcionales para plataforma móvil usando Figma.",
+        "Llevar a cabo reuniones con usuarios para levantamiento de requerimientos y propuestas técnicas.",
+        "Aplicar patrones de diseño y buenas prácticas de arquitectura de software.",
+        "Asegurar calidad del código mediante SonarQube y revisión continua.",
+        "Dar mantenimiento correctivo y evolutivo a módulos críticos existentes."
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Mejora de la experiencia de usuario en la app móvil institucional.",
+        "Reducción de carga en frontend gracias a migración parcial a microfronts.",
+        "Automatización de flujos de integración continua con GitLab CI/CD.",
+        "Documentación técnica estandarizada para nuevos desarrollos.",
+        "Adopción de mejores prácticas a través de la implementación de SonarQube."
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
+        "Laravel",
+        "Angular",
+        "Vuejs",
+        "TypeScript",
+        "PHP",
+        "Figma",
+        "MySQL",
+        "Git",
         "Python",
-        "Django",
-        "SQL",
-        "Git"
+        "NET",
+        "Ionic",
+        "SonarQube",
+        "Arquitectura de software",
+        "Patrones de diseño"
+      ],
+      "internalProjects": [
+        {
+          "name": "Sistema de Información Penitenciario Federal",
+          "highlights": [
+            "Desarrollar historias de usuario conforme a requerimientos del área institucional.",
+            "Diseñar e integrar APIs y microservicios con TypeScript y PHP.",
+            "Modelar bases de datos relacionales optimizadas para rendimiento.",
+            "Desarrollar microfrontends con Vue.js y Angular.",
+            "Integrar estaciones biométricas con módulos web.",
+            "Diseñar interfaces móviles intuitivas en Figma.",
+            "Automatizar validaciones de calidad de código con SonarQube.",
+            "Desplegar en ambientes controlados y productivos con revisión QA."
+          ]
+        }
       ]
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
+      "name": "HD Latinoamérica",
+      "position": "Desarrollador Full Stack",
+      "location_type": "Híbrido",
+      "location": "México",
+      "url": "https://www.hdlatinoamerica.com/",
+      "startDate": "2023-01-01",
+      "endDate": "2024-04-30",
+      "summary": "Diseño, desarrollo y mantenimiento de sistemas web robustos y escalables, con foco en la experiencia del usuario, la eficiencia operativa y la arquitectura multiusuario.",
+      "responsibilities": [
+        "Redacción de reglas de negocio para múltiples módulos.",
+        "Diseño de interfaces atractivas y funcionales en Figma.",
+        "Implementación de funcionalidades con Laravel, Livewire y Vue.js.",
+        "Mantenimiento, rediseño y modernización de plataformas web existentes.",
+        "Normalización de bases de datos y estructuración de sistemas monolíticos.",
+        "Colaboración directa con usuarios y equipos para entender y documentar requerimientos funcionales y técnicos."
+      ],
+      "achievements": [
+        "Integración de APIs y microservicios para automatizar procesos.",
+        "Reducción significativa de la carga en JavaScript gracias al uso eficiente de Livewire.",
+        "Estandarización de documentación técnica que mejoró la mantenibilidad.",
+        "Soporte exitoso para múltiples clientes bajo arquitectura MultiTenancy.",
+        "Generación de reportes PDF y alertas en tiempo real sobre fallos del sistema."
+      ],
+      "skills": [
+        "Laravel",
+        "Vuejs",
+        "Livewire",
+        "Python",
+        "Tailwind",
+        "Bootstrap",
+        "Figma",
+        "MySQL",
+        "PostgreSQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git",
+        "Arquitectura de software",
+        "Patrones de diseño"
+      ],
+      "internalProjects": [
+        {
+          "name": "DATALUX",
+          "url": "https://demo.datalux.com.mx/",
+          "highlights": [
+            "Redacción de reglas de negocio.",
+            "Desarrollo con Laravel + Livewire para módulos dinámicos y Vue.js para componentes complejos.",
+            "Implementación de códigos QR para gestión de luminarias.",
+            "Mapas interactivos para ubicar y monitorear luminarias en tiempo real.",
+            "Generación de reportes PDF/Excel y alertas en tiempo real.",
+            "Diseño de interfaces en Figma y pruebas de usabilidad.",
+            "Arquitectura MultiTenancy para múltiples clientes.",
+            "Corrección de bugs y mejoras continuas en producción."
+          ]
+        },
+        {
+          "name": "Sistema de Gestión Integral (SGI ISO)",
+          "highlights": [
+            "Entrevistas a usuarios y recopilación de requisitos.",
+            "Redacción de reglas de negocio.",
+            "Mantenimiento y rediseño de plataformas web con Laravel y Vue.js.",
+            "Integración de APIs y microservicios para mayor eficiencia.",
+            "Desarrollo de aplicaciones monolíticas con patrones de diseño.",
+            "Normalización de bases de datos hasta segunda forma normal.",
+            "Diseño de interfaces funcionales en Figma.",
+            "Documentación técnica detallada y clara."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Antivirus México",
+      "position": "Desarrollador Web JR",
+      "location_type": "Presencial",
+      "location": "México",
+      "url": "https://antivirus-mexico.com/",
+      "startDate": "2022-04-01",
+      "endDate": "2023-01-01",
+      "summary": "Reingeniería y rediseño de sitios web, mantenimiento de plataformas en WordPress y desarrollo de soluciones personalizadas para el área de ventas y marketing.",
       "highlights": [
-        "Completed several client projects successfully"
+        "Mejora de la funcionalidad de sitios existentes mediante componentes personalizados.",
+        "Implementación de una aplicación web interna para operaciones del área comercial.",
+        "Producción de contenido digital y audiovisual para campañas de marketing."
+      ],
+      "responsibilities": [
+        "Rediseñar sitios web para mejorar usabilidad y apariencia.",
+        "Dar mantenimiento y optimización a plataformas WordPress.",
+        "Desarrollar una aplicación interna para el equipo de ventas.",
+        "Crear componentes personalizados para funciones específicas del sitio.",
+        "Diseñar sitios web para campañas dirigidas y contenido corporativo.",
+        "Producir videos promocionales de marca y representación institucional."
+      ],
+      "achievements": [
+        "Lanzamiento exitoso de una plataforma interna para ventas.",
+        "Mejora de la experiencia del usuario en sitios existentes.",
+        "Aporte creativo en la producción de contenido digital estratégico."
       ],
       "skills": [
         "HTML",
-        "CSS"
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "Laravel",
+        "WordPress",
+        "Adobe",
+        "Figma",
+        "Diseño responsivo",
+        "Marketing digital"
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Universidad Virtual del Estado de Guanajuato (UVEG)",
@@ -415,7 +506,7 @@
       ]
     },
     {
-      "name": "Spring Boot",
+      "name": "SpringBoot",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -448,7 +539,7 @@
       ]
     },
     {
-      "name": "C#",
+      "name": "CSharp",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -471,7 +562,7 @@
       ]
     },
     {
-      "name": ".NET",
+      "name": "NET",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -511,20 +602,6 @@
       ]
     },
     {
-      "name": "Power BI",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Server",
-        "BI",
-        "Business Intelligence",
-        "Data Analysis",
-        "Data Visualization",
-        "Data Modeling"
-      ]
-    },
-    {
       "name": "MySQL",
       "level": "Intermediate",
       "keywords": [
@@ -547,40 +624,6 @@
       ]
     },
     {
-      "name": "Windows Server",
-      "level": "Intermediate",
-      "keywords": [
-        "Server",
-        "Windows",
-        "Windows Server",
-        "Active Directory",
-        "Group Policy",
-        "DNS",
-        "DHCP",
-        "IIS",
-        "Hyper-V",
-        "WSUS",
-        "Remote Desktop Services",
-        "File Server",
-        "Print Server",
-        "VPN",
-        "DirectAccess",
-        "BranchCache",
-        "Storage Spaces",
-        "Failover Clustering",
-        "Network Load Balancing",
-        "Windows Admin Center",
-        "PowerShell",
-        "Windows Defender",
-        "Windows Firewall",
-        "Windows Update",
-        "Windows Deployment Services",
-        "Windows Assessment and Deployment Kit",
-        "Windows Preinstallation Environment",
-        "Windows Recovery Environment"
-      ]
-    },
-    {
       "name": "Linux",
       "level": "Intermediate",
       "keywords": [
@@ -590,16 +633,6 @@
         "Debian",
         "CentOS",
         "Red Hat"
-      ]
-    },
-    {
-      "name": "Debian",
-      "level": "Intermediate",
-      "keywords": [
-        "Server",
-        "Debian",
-        "System Administration",
-        "Linux"
       ]
     },
     {
@@ -689,61 +722,135 @@
   ],
   "interests": [
     {
-      "name": "Technology",
+      "name": "Desarrollo Web",
       "keywords": [
-        "AI",
-        "Blockchain"
+        "Frontend",
+        "Backend",
+        "Fullstack",
+        "React",
+        "Astro",
+        "Laravel"
       ]
-    }
-  ],
-  "references": [
+    },
     {
-      "name": "Jane Smith",
-      "reference": "Reference…"
+      "name": "Desarrollo de Escritorio",
+      "keywords": [
+        "Electron",
+        "Tauri",
+        "Aplicaciones multiplataforma",
+        "UI/UX"
+      ]
+    },
+    {
+      "name": "Desarrollo Móvil",
+      "keywords": [
+        "Flutter",
+        "React Native",
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Videojuegos",
+      "keywords": [
+        "Unity",
+        "Godot",
+        "Game design",
+        "Programación de físicas",
+        "Pixel art"
+      ]
+    },
+    {
+      "name": "Tecnología",
+      "keywords": [
+        "IA",
+        "Blockchain",
+        "Automatización",
+        "Domótica"
+      ]
+    },
+    {
+      "name": "Servidores",
+      "keywords": [
+        "Linux",
+        "Docker",
+        "Nginx",
+        "DevOps",
+        "VPS"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
+      "name": "Portafolio Personal",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "Sitio web personal desarrollado con Astro y TailwindCSS para mostrar mis servicios, proyectos y redirigir a mi CV imprimible.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Desarrollado con Astro para máxima performance y velocidad de carga",
+        "Diseño responsive con TailwindCSS",
+        "Sección de servicios, proyectos y contacto",
+        "Botón que enlaza a CV detallado y listo para impresión"
       ],
-      "url": "https://weatherapp.com"
+      "url": "https://osmi-chan.dev",
+      "github": "https://github.com/osmaar/dev-portfolio"
     },
     {
-      "name": "Task Manager",
+      "name": "Assertor Abogados",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
+      "description": "Sitio web corporativo para un despacho de abogados, desarrollado con Laravel 11, JavaScript y SCSS, enfocado en la presentación clara de servicios legales.",
       "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
+        "Diseño limpio y profesional adaptado al sector legal",
+        "Totalmente responsive y optimizado para SEO",
+        "Secciones informativas sobre servicios, equipo y contacto",
+        "Animaciones suaves y estructura modular con SCSS"
       ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "url": "https://assertorabogados.com"
     },
     {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "name": "Plant Electric - Covestro México",
+      "description": "Aplicación interna desarrollada para Covestro México para gestionar la distribución de las cargas eléctricas existentes dentro de una planta de producción industrial. Construida con Vue 3, Inertia.js y Laravel 10.",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Interfaz SPA fluida con Vue 3 e Inertia.js para una experiencia de usuario eficiente",
+        "Gestión centralizada de datos de consumo eléctrico en diferentes generadores y áreas de la planta",
+        "Cálculos automatizados para optimizar la distribución de cargas y prevenir sobrecargas",
+        "Backend robusto con Laravel 10, enfocado en seguridad y mantenibilidad del sistema"
       ],
-      "url": "https://ecommerce.com"
+      "github": "https://github.com/0smarLP/plantElectric"
+    },
+    {
+      "name": "Urban LED",
+      "isActive": true,
+      "description": "Sitio web corporativo desarrollado para Urban LED, empresa dedicada a la fabricación y venta de luminarias LED al mayoreo. Construido con HTML, SCSS, JavaScript y PHP.",
+      "highlights": [
+        "Diseño moderno enfocado en la presentación de productos industriales",
+        "Formulario de contacto funcional desarrollado en PHP",
+        "Catálogo de productos con estructura adaptable y responsive",
+        "Optimización básica para SEO y tiempos de carga"
+      ],
+      "url": "https://www.urbanled.mx/"
+    },
+    {
+      "name": "Datalux",
+      "isActive": true,
+      "description": "Aplicación web desarrollada para Datalux, empresa especializada en la instalación y gestión de luminarias urbanas. La plataforma permite la geolocalización de luminarias y la generación de reportes mediante códigos QR.",
+      "highlights": [
+        "Desarrollada con Laravel 9 y Livewire 2 para una experiencia dinámica sin recargar la página",
+        "Integración con mapas para visualización geolocalizada de luminarias",
+        "Generación de reportes automatizados a través de escaneo de códigos QR",
+        "Interfaz responsive y moderna utilizando Tailwind CSS"
+      ],
+      "url": "https://demo.datalux.com.mx/"
+    },
+    {
+      "name": "Galería de Ropa",
+      "description": "Galería web desarrollada para mostrar productos de un emprendimiento de ropa. Permite visualizar las prendas de forma ordenada y sencilla. Construida con PHP, JavaScript y CSS puro.",
+      "highlights": [
+        "Interfaz simple y funcional enfocada en la presentación visual de productos",
+        "Carga dinámica de imágenes y organización por categorías",
+        "Desarrollo 100% con tecnologías básicas sin frameworks",
+        "Código optimizado para hosting compartido de bajo costo"
+      ],
+      "github": "https://github.com/0smarLP/galeria"
     }
   ]
 }
