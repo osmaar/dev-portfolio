@@ -1,7 +1,6 @@
 ---
 import Section from "../Section.astro"
 import { work } from "@cv"
-
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
 import JavaScript from "@/icons/javascript.astro"
@@ -17,6 +16,21 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Laravel from "@/icons/Laravel.astro"
+import PHP from "@/icons/Php.astro"
+import WordPress from "@/icons/WordPress.astro"
+import Adobe from "@/icons/Adobe.astro"
+import Figma from "@/icons/Figma.astro"
+import Vuejs from "@/icons/Vuejs.astro"
+import Livewire from "@/icons/Livewire.astro"
+import PostgreSQL from "@/icons/PostgresSQL.astro"
+import Python from "@/icons/Python.astro"
+import Bootstrap from "@/icons/Bootstrap.astro"
+import CSharp from "@/icons/CSha.astro"
+import Angular from "@/icons/Angular.astro"
+import NET from "@/icons/Net.astro"
+import SonarQube from "@/icons/SonarQube.astro"
+import Ionic from "@/icons/Ionic.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -34,11 +48,26 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  PHP,
+  Laravel,
+  WordPress,
+  Adobe,
+  Figma,
+  Vuejs,
+  Livewire,
+  PostgreSQL,
+  Python,
+  Bootstrap,
+  CSharp,
+  Angular,
+  NET,
+  SonarQube,
+  Ionic
 }
 ---
 <Section className={Astro.props.className} title="Experiencia">
   <ul class="flex flex-col">
-    {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
+    {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type, internalProjects  }) => {
       const startYear = new Date(startDate).getFullYear()
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Presente"
 
@@ -88,6 +117,33 @@ const SKILLS_ICONS: Record<string, any> = {
                     </ul>
                   </div>
                 )}
+
+                {internalProjects && internalProjects.length > 0 && (
+                  <div class="flex flex-col gap-4">
+                  {internalProjects.map((project) => (
+                    <div class="flex flex-col gap-1">
+                    <h4>
+                      Proyecto:{" "}
+                      {"url" in project && project.url ? (
+                        <a class="text-skin-hue underline" href={project.url} target="_blank" rel="noopener noreferrer">
+                          {project.name}
+                        </a>
+                      ) : (
+                        project.name
+                      )}
+                    </h4>
+
+                      <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
+                      {project.highlights.map(item => (
+                        <li>{item}</li>
+                      ))}
+                      </ul>
+                    </div>
+                    ))}
+                  </div>
+                )}
+
+                
 
                 {(responsibilities || achievements) &&  (
                 <div class="md:after:from-skin-hue dark:md:after:to-skin-hue/0  flex relative flex-col max-sm:!h-auto print:!h-auto gap-4 print:gap-2 md:after:bg-gradient-to-t md:after:absolute md:after:bottom-0 md:after:w-full print:after:hidden md:after:h-12 md:after:content-[''] " :class="expanded ? 'after:hidden' : ''" x-show="expanded" x-collapse.min.50px>
