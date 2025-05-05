@@ -46,7 +46,12 @@ interface Work {
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
-  highlights: Highlight;
+  highlights: Highlight[];
+  internalProjects?: Array<{
+    name: string;
+    highlights: string[];
+    url?: string;
+  }>;
 }
 
 type DateStr = `${string}-${string}-${string}`;
