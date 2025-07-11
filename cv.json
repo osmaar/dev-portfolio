@@ -4,10 +4,10 @@
     "label": "Desarrollador Full Stack",
     "image": "/me_avatar.jpg",
     "email": "contacto@osmi-chan.com",
-    "phone": "+52 558-727-2840",
+    "phone": "+52 5587272840",
     "url": "https://osmi-chan.com",
-    "summary": "+4 años de experiencia desarrollando soluciones Full-Stack  web escalables, con enfoque en rendimiento, arquitectura y experiencia de usuario. Especializado en Laravel, Angular, Vue.js y microservicios.",
-    "theme": "dark",
+    "summary": "+4 años de experiencia creando soluciones web robustas, rápidas con enfoque en escalabilidad, arquitectura y experiencia de usuario. Experto en en Laravel, TypeScript y desarrollo con JavaScript moderno.",
+    "theme": "light",
     "location": {
       "address": "",
       "postalCode": "56334",
@@ -39,52 +39,58 @@
       "endDate": null,
       "summary": "Desarrollo y mantenimiento del Sistema de Información Penitenciario Federal. Participación activa en análisis, diseño e implementación de soluciones modulares, integración de biometría y microservicios, así como mejora continua basada en estándares de calidad de software.",
       "responsibilities": [
-        "Desarrollar módulos backend con Laravel y frontend utilizando Angular y Vue.js.",
-        "Diseñar APIs y microservicios para integración con sistemas federales externos.",
-        "Modelar bases de datos bajo principios de normalización y rendimiento.",
-        "Implementar arquitectura basada en microfrontends para escalabilidad.",
-        "Integrar estaciones biométricas con la plataforma web.",
-        "Diseñar interfaces intuitivas y funcionales para plataforma móvil usando Figma.",
-        "Llevar a cabo reuniones con usuarios para levantamiento de requerimientos y propuestas técnicas.",
-        "Aplicar patrones de diseño y buenas prácticas de arquitectura de software.",
-        "Asegurar calidad del código mediante SonarQube y revisión continua.",
-        "Dar mantenimiento correctivo y evolutivo a módulos críticos existentes."
+        "Refactorizar el sistema monolítico a una arquitectura de microservicios (micro-backends y micro-fronts).",
+        "Implementar arquitectura Repositorio–Servicios–Transformadores para escalabilidad modular.",
+        "Centralizar modelos de datos compartidos en paquetes independientes.",
+        "Aplicar patrón Feature-Sliced Design en Angular para estructura mantenible.",
+        "Diseñar e implementar APIs REST en PHP y TypeScript para frontend web y app móvil.",
+        "Desarrollar app móvil institucional en Angular 18 + Ionic para biometría penitenciaria.",
+        "Mantener y rediseñar módulos con Laravel y Angular optimizando UX.",
+        "Integrar estaciones biométricas .NET al sistema vía web.",
+        "Aplicar estándares de calidad con SonarQube, bloqueando PRs por baja cobertura.",
+        "Desplegar microservicios y assets front en servidores con Ansible.",
+        "Implementar control de acceso basado en roles (RBAC).",
+        "Normalizar bases de datos a segunda forma normal para integridad y rendimiento."
       ],
       "achievements": [
-        "Mejora de la experiencia de usuario en la app móvil institucional.",
-        "Reducción de carga en frontend gracias a migración parcial a microfronts.",
-        "Automatización de flujos de integración continua con GitLab CI/CD.",
-        "Documentación técnica estandarizada para nuevos desarrollos.",
-        "Adopción de mejores prácticas a través de la implementación de SonarQube."
+        "Migración exitosa a microservicios desacoplados y microfrontends.",
+        "Optimización de UX móvil con Angular + Ionic.",
+        "Automatización de CI/CD con GitLab Pipelines.",
+        "Establecimiento de arquitectura limpia y mantenible.",
+        "Integración funcional de sistemas biométricos en producción."
       ],
       "skills": [
         "Laravel",
         "Angular",
         "Vuejs",
+        "Ionic",
         "TypeScript",
         "PHP",
-        "Figma",
         "MySQL",
         "Git",
-        "Python",
-        "NET",
-        "Ionic",
         "SonarQube",
-        "Arquitectura de software",
-        "Patrones de diseño"
+        "CI/CD",
+        "Docker",
+        "Figma",
+        "NET",
+        "Python",
+        "Arquitectura de Software",
+        "Microservicios",
+        "DevOps",
+        "Ansible"
       ],
       "internalProjects": [
         {
           "name": "Sistema de Información Penitenciario Federal",
           "highlights": [
-            "Desarrollar historias de usuario conforme a requerimientos del área institucional.",
-            "Diseñar e integrar APIs y microservicios con TypeScript y PHP.",
-            "Modelar bases de datos relacionales optimizadas para rendimiento.",
-            "Desarrollar microfrontends con Vue.js y Angular.",
-            "Integrar estaciones biométricas con módulos web.",
-            "Diseñar interfaces móviles intuitivas en Figma.",
-            "Automatizar validaciones de calidad de código con SonarQube.",
-            "Desplegar en ambientes controlados y productivos con revisión QA."
+            "Reestructuración completa hacia microservicios y microfronts.",
+            "Desarrollo de APIs seguras con TypeScript y PHP.",
+            "Modelado y normalización de BD para eficiencia y consistencia.",
+            "Desarrollo de frontend biométrico móvil en Angular + Ionic.",
+            "Automatización de análisis estático con SonarQube en Docker.",
+            "Integración de biometría .NET a plataforma web.",
+            "Despliegue automatizado con Ansible y GitLab CI/CD.",
+            "Documentación técnica completa y estandarizada."
           ]
         }
       ]
@@ -138,7 +144,7 @@
             "Redacción de reglas de negocio.",
             "Desarrollo con Laravel + Livewire para módulos dinámicos y Vue.js para componentes complejos.",
             "Implementación de códigos QR para gestión de luminarias.",
-            "Mapas interactivos para ubicar y monitorear luminarias en tiempo real.",
+            "Mapas interactivos para ubicar y monitorizar luminarias en tiempo real.",
             "Generación de reportes PDF/Excel y alertas en tiempo real.",
             "Diseño de interfaces en Figma y pruebas de usabilidad.",
             "Arquitectura MultiTenancy para múltiples clientes.",
@@ -236,7 +242,7 @@
       "name": "Accredited Software Testing Fundamentals Certification (AICS® ASTFC).",
       "date": "2024-12-15",
       "issuer": "AICS® - Asociación Internacional de Calidad de Software",
-      "url": "https: //www.linkedin.com/in/osmi-developer/details/certifications/1718475347303/single-media-viewer/?profileId=ACoAADG4FssB7HjE-jvp9jK-A8pPwkEvflxhKwQ"
+      "url": "https://www.linkedin.com/in/osmi-developer/details/certifications/1718475347303/single-media-viewer/?profileId=ACoAADG4FssB7HjE-jvp9jK-A8pPwkEvflxhKwQ"
     },
     {
       "name": "Primeros pasos en el proceso de diseño de UX:Empatizar, Definir, Idear.",
@@ -722,61 +728,61 @@
   ],
   "interests": [
     {
-      "name": "Desarrollo Web",
+      "name": "Desarrollo Web / Web Development",
       "keywords": [
-        "Frontend",
-        "Backend",
-        "Fullstack",
-        "React",
-        "Astro",
-        "Laravel"
+        "Frontend / Frontend",
+        "Backend / Backend",
+        "Fullstack / Fullstack",
+        "React / React",
+        "Astro / Astro",
+        "Laravel / Laravel"
       ]
     },
     {
-      "name": "Desarrollo de Escritorio",
+      "name": "Desarrollo de Escritorio / Desktop Development",
       "keywords": [
-        "Electron",
-        "Tauri",
-        "Aplicaciones multiplataforma",
-        "UI/UX"
+        "Electron / Electron",
+        "Tauri / Tauri",
+        "Aplicaciones multiplataforma / Cross-platform apps",
+        "UI/UX / UI/UX"
       ]
     },
     {
-      "name": "Desarrollo Móvil",
+      "name": "Desarrollo Móvil / Mobile Development",
       "keywords": [
-        "Flutter",
-        "React Native",
-        "Android",
-        "iOS"
+        "Flutter / Flutter",
+        "React Native / React Native",
+        "Android / Android",
+        "iOS / iOS"
       ]
     },
     {
-      "name": "Videojuegos",
+      "name": "Videojuegos / Game Development",
       "keywords": [
-        "Unity",
-        "Godot",
-        "Game design",
-        "Programación de físicas",
-        "Pixel art"
+        "Unity / Unity",
+        "Godot / Godot",
+        "Game design / Diseño de juegos",
+        "Programación de físicas / Physics programming",
+        "Pixel art / Pixel art"
       ]
     },
     {
-      "name": "Tecnología",
+      "name": "Tecnología / Technology",
       "keywords": [
-        "IA",
-        "Blockchain",
-        "Automatización",
-        "Domótica"
+        "IA / AI",
+        "Blockchain / Blockchain",
+        "Automatización / Automation",
+        "Domótica / Home automation"
       ]
     },
     {
-      "name": "Servidores",
+      "name": "Servidores / Servers",
       "keywords": [
-        "Linux",
-        "Docker",
-        "Nginx",
-        "DevOps",
-        "VPS"
+        "Linux / Linux",
+        "Docker / Docker",
+        "Nginx / Nginx",
+        "DevOps / DevOps",
+        "VPS / VPS"
       ]
     }
   ],
@@ -842,15 +848,17 @@
       "url": "https://demo.datalux.com.mx/"
     },
     {
-      "name": "Galería de Ropa",
-      "description": "Galería web desarrollada para mostrar productos de un emprendimiento de ropa. Permite visualizar las prendas de forma ordenada y sencilla. Construida con PHP, JavaScript y CSS puro.",
+      "name": "Lumen Core Microservice",
+      "description": "Cascarón base desarrollado con Lumen 11. Pensado para crear microservicios ligeros, modulares y de alto rendimiento. Ideal para servicios REST que no requieren un stack completo de Laravel.",
       "highlights": [
-        "Interfaz simple y funcional enfocada en la presentación visual de productos",
-        "Carga dinámica de imágenes y organización por categorías",
-        "Desarrollo 100% con tecnologías básicas sin frameworks",
-        "Código optimizado para hosting compartido de bajo costo"
+        "Arquitectura limpia basada en Repository, Service, Controller y Transformer (Fractal)",
+        "Autenticación remota vía JWT validado contra backend central",
+        "Integración de librerías como Maatwebsite Excel y FPDF/FPDI para generación de archivos",
+        "Estructura modular de rutas con middleware de seguridad aplicado a nivel global",
+        "Separación de modelos dentro de un paquete compartido para mantener el microservicio desacoplado",
+        "Código optimizado para despliegue rápido y mantenimiento sencillo en equipos grandes"
       ],
-      "github": "https://github.com/0smarLP/galeria"
+      "github": "https://github.com/osmaar/lumen-core-microservice"
     }
   ]
 }
