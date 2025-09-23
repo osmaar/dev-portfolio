@@ -2,7 +2,7 @@
   "basics": {
     "name": "Osmar López Islas",
     "label": "Desarrollador Full Stack",
-    "image": "/me_avatar.jpg",
+    "image": "/foto_profesional_perfil.png",
     "email": "contacto@osmar-lopez.dev",
     "phone": "+52 5587272840",
     "url": "https://osmar-lopez.dev",
@@ -66,6 +66,7 @@
         "Ionic",
         "TypeScript",
         "PHP",
+        "Node",
         "MySQL",
         "Git",
         "SonarQube",
@@ -91,6 +92,18 @@
             "Integración de biometría .NET a plataforma web.",
             "Despliegue automatizado con Ansible y GitLab CI/CD.",
             "Documentación técnica completa y estandarizada."
+          ]
+        },
+        {
+          "name": "Proyecto Tekton — Gestión del sistema de empadronamiento y entregas de apoyos",
+          "highlights": [
+            "Entrevistas a usuarios y recopilación de requisitos.",
+            "Redacción de reglas de negocio.",
+            "Desarrollo de documentación técnica detallada y clara con JsDocs y compodoc.",
+            "Refactorización, mantenimiento y documentación de API para sistema SSR (Server-Side Rendering) en Node.js y Express.js.",
+            "Implementación de procesos de empadronamiento y entregas con MySQL 8 y mysql-node.",
+            "Desarrollo y mantenimiento de frontend en Angular 10 para la administración y consulta de datos.",
+            "Optimización de consultas y endpoints para mejorar tiempos de respuesta del sistema."
           ]
         }
       ]
@@ -317,6 +330,23 @@
         "Frontend",
         "Backend",
         "Fullstack"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript Runtime",
+        "Express.js",
+        "Koa.js",
+        "NestJS",
+        "Fastify",
+        "Hapi.js",
+        "Socket.io",
+        "Next.js",
+        "Nuxt.js"
       ]
     },
     {
