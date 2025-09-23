@@ -246,6 +246,18 @@
   ],
   "certificates": [
     {
+      "name": "Spring Framework 6 & Spring Boot 3 desde cero a experto",
+      "date": "2025-09-22",
+      "issuer": "Udemy",
+      "url": ""
+    },
+    {
+      "name": "Arquitectura Software Moderna: DDD, Eventos, Microservicios",
+      "date": "2025-07-28",
+      "issuer": "Udemy",
+      "url": ""
+    },
+    {
       "name": "Accredited Scrum Fundamentals Certification (AICS® ASFC).",
       "date": "2024-11-01",
       "issuer": "AICS® - Asociación Internacional de Calidad de Software",
