@@ -6,7 +6,7 @@
     "email": "contacto@osmar-lopez.dev",
     "phone": "+52 5587272840",
     "url": "https://osmar-lopez.dev",
-    "summary": "+4 años de experiencia creando soluciones web robustas, rápidas con enfoque en escalabilidad, arquitectura y experiencia de usuario. Experto en en Laravel, TypeScript y desarrollo con JavaScript moderno.",
+    "summary": "+5 años de experiencia creando soluciones web robustas, rápidas con enfoque en escalabilidad, arquitectura y experiencia de usuario. Experto en en Laravel, TypeScript y desarrollo con JavaScript moderno.",
     "theme": "light",
     "location": {
       "address": "",
@@ -30,13 +30,78 @@
   },
   "work": [
     {
+      "name": "Axity",
+      "position": "Desarrollador Full Stack",
+      "location_type": "Remoto",
+      "location": "México",
+      "url": "https://axity.com/",
+      "startDate": "2025-11-01",
+      "endDate": null,
+      "summary": "Participación en el desarrollo de aplicaciones empresariales para ATT México, enfocadas en soportar procesos críticos de negocio bajo una arquitectura enterprise, aplicando buenas prácticas de calidad, seguridad y desarrollo ágil.",
+      "responsibilities": [
+        "Diseñar, desarrollar e implementar aplicaciones empresariales para procesos críticos de negocio.",
+        "Desarrollar frontend con Angular 10 siguiendo buenas prácticas y estándares corporativos.",
+        "Desarrollar backend con Java y Spring Boot bajo arquitectura de microservicios.",
+        "Refactorizar módulos existentes para mejorar mantenibilidad y rendimiento.",
+        "Resolver bugs productivos y dar soporte a módulos en producción.",
+        "Integrar servicios y bases de datos empresariales.",
+        "Trabajar en un entorno ágil colaborando con equipos multidisciplinarios.",
+        "Aplicar estándares de calidad y seguridad apoyados en Sonar y pipelines existentes.",
+        "Trabajar con Docker para entornos de desarrollo y despliegue."
+      ],
+      "achievements": [
+        "Participación activa en arquitectura enterprise full stack.",
+        "Estabilización de módulos productivos mediante corrección de bugs críticos.",
+        "Colaboración efectiva en proyectos de alto impacto para ATT México."
+      ],
+      "skills": [
+        "TypeScript",
+        "Angular",
+        "Java",
+        "SpringBoot",
+        "Microservicios",
+        "Arquitectura Enterprise",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "SonarQube",
+        "CI/CD",
+        "Node",
+        "Weblogic",
+        "Oracle"
+      ],
+      "internalProjects": [
+        {
+          "name": "ATT México – ASCC",
+          "highlights": [
+            "Desarrollo frontend en Angular.",
+            "Desarrollo backend en Java con Spring Boot.",
+            "Refactorización de módulos existentes.",
+            "Corrección de bugs en producción.",
+            "Trabajo bajo arquitectura de microservicios enterprise.",
+            "Uso de pipelines CI/CD ya establecidos.",
+            "Colaboración con equipos multidisciplinarios."
+          ]
+        },
+        {
+          "name": "ATT México – Identidad Biometricos SIM",
+          "highlights": [
+            "Desarrollo microservicios en Java con Spring Boot para la comunicación de Lambdas KSD.",
+            "Trabajo bajo arquitectura de microservicios enterprise basada en AWS, Kubernetes y docker.",
+            "Uso de pipelines CI/CD ya establecidos.",
+            "Colaboración con equipos multidisciplinarios."
+          ]
+        }
+      ]
+    },
+    {
       "name": "B-PROCESS",
       "position": "Desarrollador Full Stack",
       "location_type": "Híbrido",
       "location": "México",
       "url": "https://b-process.mx/",
       "startDate": "2024-05-01",
-      "endDate": null,
+      "endDate": "2025-09-01",
       "summary": "Desarrollo y mantenimiento del Sistema de Información Penitenciario Federal. Participación activa en análisis, diseño e implementación de soluciones modulares, integración de biometría y microservicios, así como mejora continua basada en estándares de calidad de software.",
       "responsibilities": [
         "Refactorizar el sistema monolítico a una arquitectura de microservicios (micro-backends y micro-fronts).",
