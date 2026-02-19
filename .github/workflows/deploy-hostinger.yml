@@ -1,0 +1,68 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: "hostinger-deploy"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    name: Build & Deploy to Hostinger
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Backup current site
+        run: |
+          ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }} "\
+            if [ -d ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup ]; then \
+              rm -rf ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup; \
+            fi && \
+            if [ -d ${{ secrets.HOSTINGER_REMOTE_PATH }} ]; then \
+              cp -r ${{ secrets.HOSTINGER_REMOTE_PATH }} ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup; \
+            else \
+              mkdir -p ${{ secrets.HOSTINGER_REMOTE_PATH }}; \
+            fi"
+
+      - name: Deploy via SSH/rsync
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avzr --delete
+          path: dist/
+          remote_path: ${{ secrets.HOSTINGER_REMOTE_PATH }}
+          remote_host: ${{ secrets.HOSTINGER_HOST }}
+          remote_port: ${{ secrets.HOSTINGER_PORT }}
+          remote_user: ${{ secrets.HOSTINGER_USERNAME }}
+          remote_key: ${{ secrets.HOSTINGER_SSH_KEY }}
+
+      - name: Rollback on failure
+        if: failure()
+        run: |
+          ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }} "\
+            rm -rf ${{ secrets.HOSTINGER_REMOTE_PATH }} && \
+            mv ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup ${{ secrets.HOSTINGER_REMOTE_PATH }}"
+          echo "::error::Deploy fallo. Se restauro el backup automaticamente."
