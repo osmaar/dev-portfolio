@@ -9,6 +9,10 @@ concurrency:
   group: "hostinger-deploy"
   cancel-in-progress: false
 
+env:
+  DEPLOY_PATH: /home/u173498129/domains/osmar-lopez.dev/public_html/cv/
+  BACKUP_PATH: /home/u173498129/domains/osmar-lopez.dev/public_html/cv_backup/
+
 jobs:
   build-and-deploy:
     name: Build & Deploy to Hostinger
@@ -38,15 +42,14 @@ jobs:
 
       - name: Backup current site
         run: |
-          ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }} "\
-            if [ -d ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup ]; then \
-              rm -rf ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup; \
-            fi && \
-            if [ -d ${{ secrets.HOSTINGER_REMOTE_PATH }} ]; then \
-              cp -r ${{ secrets.HOSTINGER_REMOTE_PATH }} ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup; \
-            else \
-              mkdir -p ${{ secrets.HOSTINGER_REMOTE_PATH }}; \
-            fi"
+          ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }} "
+            rm -rf '${{ env.BACKUP_PATH }}' &&
+            if [ -d '${{ env.DEPLOY_PATH }}' ]; then
+              cp -r '${{ env.DEPLOY_PATH }}' '${{ env.BACKUP_PATH }}'
+            else
+              mkdir -p '${{ env.DEPLOY_PATH }}'
+            fi
+          "
 
       - name: Deploy via SSH/rsync
         uses: burnett01/rsync-deployments@7.0.1
@@ -62,7 +65,10 @@ jobs:
       - name: Rollback on failure
         if: failure()
         run: |
-          ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }} "\
-            rm -rf ${{ secrets.HOSTINGER_REMOTE_PATH }} && \
-            mv ${{ secrets.HOSTINGER_REMOTE_PATH }}../cv_backup ${{ secrets.HOSTINGER_REMOTE_PATH }}"
+          ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }} ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }} "
+            if [ -d '${{ env.BACKUP_PATH }}' ]; then
+              rm -rf '${{ env.DEPLOY_PATH }}' &&
+              mv '${{ env.BACKUP_PATH }}' '${{ env.DEPLOY_PATH }}'
+            fi
+          "
           echo "::error::Deploy fallo. Se restauro el backup automaticamente."
